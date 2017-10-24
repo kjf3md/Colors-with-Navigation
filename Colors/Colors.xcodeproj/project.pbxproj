@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CC4E821F9F9B8200C2E38F /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CC4E811F9F9B8200C2E38F /* ColorDetailViewController.swift */; };
 		FE9D18D11F198B5B00A33821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D18D01F198B5B00A33821 /* AppDelegate.swift */; };
 		FE9D18D61F198B5B00A33821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9D18D41F198B5B00A33821 /* Main.storyboard */; };
 		FE9D18D81F198B5B00A33821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9D18D71F198B5B00A33821 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34CC4E811F9F9B8200C2E38F /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 		FE9D18CD1F198B5B00A33821 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9D18D01F198B5B00A33821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE9D18D51F198B5B00A33821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				FE9D18DC1F198B5B00A33821 /* Info.plist */,
 				FE9D18FE1F198BC600A33821 /* ColorsViewController.swift */,
 				FE9D19021F199A7D00A33821 /* Color.swift */,
+				34CC4E811F9F9B8200C2E38F /* ColorDetailViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				FE9D18FF1F198BC600A33821 /* ColorsViewController.swift in Sources */,
 				FE9D18D11F198B5B00A33821 /* AppDelegate.swift in Sources */,
 				FE9D19031F199A7D00A33821 /* Color.swift in Sources */,
+				34CC4E821F9F9B8200C2E38F /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +515,7 @@
 				FE9D18F71F198B5B00A33821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE9D18F81F198B5B00A33821 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				FE9D18FA1F198B5B00A33821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE9D18FB1F198B5B00A33821 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				FE9D18FD1F198B5B00A33821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
